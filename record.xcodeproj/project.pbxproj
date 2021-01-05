@@ -15,6 +15,12 @@
 		B2B7B43E25A477910089D9C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B7B43C25A477910089D9C9 /* LaunchScreen.storyboard */; };
 		B2B7B44925A477920089D9C9 /* recordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B7B44825A477920089D9C9 /* recordTests.swift */; };
 		B2B7B45425A477920089D9C9 /* recordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B7B45325A477920089D9C9 /* recordUITests.swift */; };
+		B2B7B46525A477B70089D9C9 /* RecordingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B7B46425A477B70089D9C9 /* RecordingsList.swift */; };
+		B2B7B46A25A477D70089D9C9 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B7B46925A477D70089D9C9 /* AudioRecorder.swift */; };
+		B2B7B46F25A477EB0089D9C9 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B7B46E25A477EB0089D9C9 /* AudioPlayer.swift */; };
+		B2B7B47425A4780B0089D9C9 /* RecordingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B7B47325A4780B0089D9C9 /* RecordingData.swift */; };
+		B2B7B47925A478170089D9C9 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B7B47825A478170089D9C9 /* Helper.swift */; };
+		B2B7B47E25A478240089D9C9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B7B47D25A478240089D9C9 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		B2B7B44F25A477920089D9C9 /* recordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B7B45325A477920089D9C9 /* recordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordUITests.swift; sourceTree = "<group>"; };
 		B2B7B45525A477920089D9C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2B7B46425A477B70089D9C9 /* RecordingsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsList.swift; sourceTree = "<group>"; };
+		B2B7B46925A477D70089D9C9 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		B2B7B46E25A477EB0089D9C9 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		B2B7B47325A4780B0089D9C9 /* RecordingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingData.swift; sourceTree = "<group>"; };
+		B2B7B47825A478170089D9C9 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		B2B7B47D25A478240089D9C9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +114,13 @@
 				B2B7B43125A4778E0089D9C9 /* AppDelegate.swift */,
 				B2B7B43325A4778E0089D9C9 /* SceneDelegate.swift */,
 				B2B7B43525A4778E0089D9C9 /* ContentView.swift */,
+				B2B7B46425A477B70089D9C9 /* RecordingsList.swift */,
+				B2B7B46925A477D70089D9C9 /* AudioRecorder.swift */,
+				B2B7B46E25A477EB0089D9C9 /* AudioPlayer.swift */,
+				B2B7B47325A4780B0089D9C9 /* RecordingData.swift */,
+				B2B7B47825A478170089D9C9 /* Helper.swift */,
 				B2B7B43725A477910089D9C9 /* Assets.xcassets */,
+				B2B7B47D25A478240089D9C9 /* Extensions.swift */,
 				B2B7B43C25A477910089D9C9 /* LaunchScreen.storyboard */,
 				B2B7B43F25A477910089D9C9 /* Info.plist */,
 				B2B7B43925A477910089D9C9 /* Preview Content */,
@@ -267,8 +285,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2B7B43225A4778E0089D9C9 /* AppDelegate.swift in Sources */,
+				B2B7B47E25A478240089D9C9 /* Extensions.swift in Sources */,
 				B2B7B43425A4778E0089D9C9 /* SceneDelegate.swift in Sources */,
 				B2B7B43625A4778E0089D9C9 /* ContentView.swift in Sources */,
+				B2B7B46525A477B70089D9C9 /* RecordingsList.swift in Sources */,
+				B2B7B47425A4780B0089D9C9 /* RecordingData.swift in Sources */,
+				B2B7B46A25A477D70089D9C9 /* AudioRecorder.swift in Sources */,
+				B2B7B46F25A477EB0089D9C9 /* AudioPlayer.swift in Sources */,
+				B2B7B47925A478170089D9C9 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
